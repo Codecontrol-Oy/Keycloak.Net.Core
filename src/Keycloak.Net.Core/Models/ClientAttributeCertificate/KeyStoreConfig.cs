@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.ClientAttributeCertificate
+namespace Keycloak.Net.Core.Models.ClientAttributeCertificate
 {
     public class KeyStoreConfig
     {

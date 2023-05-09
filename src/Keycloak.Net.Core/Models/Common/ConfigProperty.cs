@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Keycloak.Net.Models.Root;
+using Keycloak.Net.Core.Models.Root;
 using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.Common
+namespace Keycloak.Net.Core.Models.Common
 {
     public class ConfigProperty
     {

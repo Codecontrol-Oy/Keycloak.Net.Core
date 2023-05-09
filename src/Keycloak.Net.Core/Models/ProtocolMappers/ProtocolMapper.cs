@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.ProtocolMappers
+namespace Keycloak.Net.Core.Models.ProtocolMappers
 {
     public class ProtocolMapper
     {

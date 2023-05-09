@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.IdentityProviders
+namespace Keycloak.Net.Core.Models.IdentityProviders
 {
     public class IdentityProviderToken
     {

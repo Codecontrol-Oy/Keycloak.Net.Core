@@ -1,15 +1,14 @@
-﻿using Keycloak.Net.Models.AuthorizationScopes;
+﻿using System.Collections.Generic;
 using Newtonsoft.Json;
-using System.Collections.Generic;
 
-namespace Keycloak.Net.Models.AuthorizationResources
+namespace Keycloak.Net.Core.Models.AuthorizationResources
 {
     public class AuthorizationResource
     {
         [JsonProperty("_id")]
         public string Id { get; set; }
         [JsonProperty("scopes")]
-        public IEnumerable<AuthorizationScope> Scopes { get; set; }
+        public IEnumerable<AuthorizationScopes.AuthorizationScope> Scopes { get; set; }
         [JsonProperty("attributes")]
         public Dictionary<string, IEnumerable<string>> Attributes { get; set; }
         [JsonProperty("uris")]

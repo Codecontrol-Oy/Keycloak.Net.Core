@@ -1,4 +1,4 @@
-﻿namespace Keycloak.Net
+﻿namespace Keycloak.Net.Core.Common
 {
     public class ForwardedHttpHeaders
     {

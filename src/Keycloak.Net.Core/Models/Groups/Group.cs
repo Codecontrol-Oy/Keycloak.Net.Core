@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.Groups
+namespace Keycloak.Net.Core.Models.Groups
 {
     public class Group
     {

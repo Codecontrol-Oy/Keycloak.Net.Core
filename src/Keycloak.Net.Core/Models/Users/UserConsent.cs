@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.Users
+namespace Keycloak.Net.Core.Models.Users
 {
 	public class UserConsent
 	{

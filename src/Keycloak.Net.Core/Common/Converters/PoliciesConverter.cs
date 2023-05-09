@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Keycloak.Net.Models.RealmsAdmin;
+using Keycloak.Net.Core.Models.RealmsAdmin;
 
-namespace Keycloak.Net.Common.Converters
+namespace Keycloak.Net.Core.Common.Converters
 {
     public class PoliciesConverter : JsonEnumConverter<Policies>
     {

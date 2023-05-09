@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Keycloak.Net.Models.Common;
+using Keycloak.Net.Core.Models.Common;
 using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.Components
+namespace Keycloak.Net.Core.Models.Components
 {
     public class ComponentType
     {

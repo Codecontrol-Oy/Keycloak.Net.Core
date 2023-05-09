@@ -1,9 +1,7 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
+using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.OpenIDConfiguration
+namespace Keycloak.Net.Core.Models.OpenIDConfiguration
 {
     public class OpenIDConfiguration
     {

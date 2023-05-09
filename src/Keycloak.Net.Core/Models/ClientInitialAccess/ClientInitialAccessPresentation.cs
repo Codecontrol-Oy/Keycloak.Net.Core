@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.ClientInitialAccess
+namespace Keycloak.Net.Core.Models.ClientInitialAccess
 {
     public class ClientInitialAccessPresentation : ClientInitialAccessCreatePresentation
     {

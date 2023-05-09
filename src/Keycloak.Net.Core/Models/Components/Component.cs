@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.Components
+namespace Keycloak.Net.Core.Models.Components
 {
     public class Component
     {

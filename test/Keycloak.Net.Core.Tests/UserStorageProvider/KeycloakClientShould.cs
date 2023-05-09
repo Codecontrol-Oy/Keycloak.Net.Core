@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using Keycloak.Net.Core.Resources.UserStorageProvider;
 using Xunit;
 
 namespace Keycloak.Net.Tests

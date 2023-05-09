@@ -1,7 +1,7 @@
-﻿using Keycloak.Net.Common.Converters;
+﻿using Keycloak.Net.Core.Common.Converters;
 using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.Root
+namespace Keycloak.Net.Core.Models.Root
 {
     [JsonConverter(typeof(JsonTypeLabelConverter))]
     public enum JsonTypeLabel

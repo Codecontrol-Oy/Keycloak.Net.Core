@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.Users
+namespace Keycloak.Net.Core.Models.Users
 {
     public class User
     {

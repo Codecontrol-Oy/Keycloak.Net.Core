@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.RealmsAdmin
+namespace Keycloak.Net.Core.Models.RealmsAdmin
 {
     public class AdminEvent
     {

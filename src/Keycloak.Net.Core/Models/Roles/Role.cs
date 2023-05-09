@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.Roles
+namespace Keycloak.Net.Core.Models.Roles
 {
     public class Role
     {

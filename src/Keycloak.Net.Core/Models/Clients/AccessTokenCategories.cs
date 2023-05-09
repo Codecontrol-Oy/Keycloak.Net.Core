@@ -1,4 +1,4 @@
-﻿namespace Keycloak.Net.Models.Clients
+﻿namespace Keycloak.Net.Core.Models.Clients
 {
     public enum AccessTokenCategories
     {

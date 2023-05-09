@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.AuthorizationScopes
+namespace Keycloak.Net.Core.Models.AuthorizationScopes
 {
     public class AuthorizationScope
     {

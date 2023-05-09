@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Keycloak.Net.Models.Key
+namespace Keycloak.Net.Core.Models.Key
 {
     public class Active
     {

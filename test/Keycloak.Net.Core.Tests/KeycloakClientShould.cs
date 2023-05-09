@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using Keycloak.Net.Core;
 using Microsoft.Extensions.Configuration;
 
 namespace Keycloak.Net.Tests
@@ -14,11 +15,11 @@ namespace Keycloak.Net.Tests
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .Build();
 
-            string url = configuration["url"];
-            string userName = configuration["userName"];
-            string password = configuration["password"];
+            var url = configuration["url"];
+            var userName = configuration["userName"];
+            var password = configuration["password"];
 
-            _client = new KeycloakClient(url, userName, password);
+            _client = new KeycloakClient(new InternalKeycloakClient(url, userName, password, null));
         }
     }
 }
